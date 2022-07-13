@@ -3,10 +3,22 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MarinoLinicApp1.Languages">
     <ContentPage.Content>
+
         <StackLayout>
-            <Label Text="Welcome to Xamarin.Forms!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+
+            <ListView x:Name="langListView" Margin="10" RowHeight="100" BackgroundColor="IndianRed">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="white" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand" WidthRequest="100" HorizontalTextAlignment="Center" Text="{Binding Lang}"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>
