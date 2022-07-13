@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarinoLinicApp1.Users">
+    
+    <ContentPage.Content>
+        
+        <StackLayout>
+            
+            <Grid Margin="10, 10, 10, 0">
+                
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="50"></RowDefinition>
+                </Grid.RowDefinitions>
+                
+                <Button Grid.Row="0" Grid.Column="0" CornerRadius="0" Text="ID"             FontAttributes="Bold" TextColor="White" BackgroundColor="DarkCyan" Clicked="ID_Clicked"></Button>
+                <Button Grid.Row="0" Grid.Column="1" CornerRadius="0" Text="E-mail"         FontAttributes="Bold" TextColor="White" BackgroundColor="DarkCyan" Clicked="Email_Clicked"></Button>
+                <Button Grid.Row="0" Grid.Column="2" CornerRadius="0" Text="Recency"   FontAttributes="Bold" TextColor="White" BackgroundColor="DarkCyan" Clicked="Time_Clicked"></Button>
+                
+            </Grid>
+
+            <ListView x:Name="usersListView" Margin="10" RowHeight="80" BackgroundColor="IndianRed">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Orientation="Horizontal">
+                                <Label TextColor="white" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="100" HorizontalTextAlignment="Center" Text="{Binding ID}"></Label>
+                                <Label TextColor="white" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="100" HorizontalTextAlignment="Center" Text="{Binding Email}"></Label>
+                                <Label TextColor="white" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" WidthRequest="100" HorizontalTextAlignment="Center" Text="{Binding Time}"></Label>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+        </StackLayout>
+        
+    </ContentPage.Content>
+    
+</ContentPage>

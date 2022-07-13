@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage  xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:MarinoLinicApp1"
+             x:Class="MarinoLinicApp1.HomePage"
+             BackgroundColor="AliceBlue"
+             >
+
+        <local:Users Title="Users" IconImageSource="https://www.iconsdb.com/icons/preview/white/moderator-xxl.png"/>
+        <local:Results Title="Results" IconImageSource="https://www.iconsdb.com/icons/preview/white/database-6-xxl.png"/>
+        <local:Languages Title="Languages" IconImageSource="https://www.iconsdb.com/icons/preview/white/google-translate-xxl.png"/>
+
+</TabbedPage>

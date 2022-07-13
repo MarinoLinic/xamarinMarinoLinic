@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MarinoLinicApp1.RegistrationPage">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Label Text="Register Here" HorizontalOptions="Center" Margin="20" FontAttributes="Bold" TextColor="DarkCyan"/>
+
+            <Entry x:Name="nameEntry" Margin="15" TextColor="Black" Placeholder="Name"/>
+            <Entry x:Name="userEntry" Margin="15" TextColor="Black" Placeholder="E-mail" Keyboard="Email"/>
+            <Entry x:Name="passEntry" Margin="15" TextColor="Black" Placeholder="Password" IsPassword="True"/>
+            <Entry x:Name="confirmPassEntry" Margin="15" TextColor="Black" Placeholder="Confirm password" IsPassword="True"/>
+            
+            <Button x:Name="registerButton" Text="Register" BackgroundColor="DarkCyan" Margin="20" TextColor="white" Clicked="registerButton_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarinoLinicApp1.Android", "MarinoLinicApp1.Android\MarinoLinicApp1.Android.csproj", "{A17E1085-94F4-4075-AD1C-F2AB99F1A185}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarinoLinicApp1", "MarinoLinicApp1\MarinoLinicApp1.csproj", "{E2FD2895-FC09-495B-A3FB-F15EF6D4670F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A17E1085-94F4-4075-AD1C-F2AB99F1A185}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17E1085-94F4-4075-AD1C-F2AB99F1A185}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17E1085-94F4-4075-AD1C-F2AB99F1A185}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A17E1085-94F4-4075-AD1C-F2AB99F1A185}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17E1085-94F4-4075-AD1C-F2AB99F1A185}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17E1085-94F4-4075-AD1C-F2AB99F1A185}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{E2FD2895-FC09-495B-A3FB-F15EF6D4670F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2FD2895-FC09-495B-A3FB-F15EF6D4670F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2FD2895-FC09-495B-A3FB-F15EF6D4670F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E2FD2895-FC09-495B-A3FB-F15EF6D4670F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2FD2895-FC09-495B-A3FB-F15EF6D4670F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2FD2895-FC09-495B-A3FB-F15EF6D4670F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EDB04875-489B-4EDB-87FE-71BAFD8CC526}
+	EndGlobalSection
+EndGlobal
