@@ -41,16 +41,16 @@ namespace MarinoLinicApp1
 
                     newLang.Lang = langu["language"].ToString();
 
-                    if(newLang != null)
-                    {
-                        langList.Add(newLang);
-                    }
+                    langList.Add(newLang);
                     
                 }
             }
 
             List<Language> LangSort = langList.OrderByDescending(x => x.Lang).ToList();
-            langListView.ItemsSource = LangSort;
+
+            IEnumerable<Language> LangTypes = LangSort.Distinct();
+
+            langListView.ItemsSource = LangTypes;
         }
     }
 }
